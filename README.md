@@ -1,4 +1,3 @@
-Dưới đây là nội dung hoàn chỉnh bạn có thể copy nguyên xi vào file `README.md` trong repo GitHub của bạn:
 
 ````markdown
 # HR Attrition Analyzer
