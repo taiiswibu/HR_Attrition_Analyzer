@@ -1,5 +1,4 @@
 
-
 # HR Attrition Analyzer
 
 ![HR Attrition Analyzer](https://img.shields.io/badge/Status-Active-green)
@@ -155,6 +154,17 @@ Sau đó mở trình duyệt web tại địa chỉ được hiển thị (thư�
 
 ---
 
-*HR Attrition Analyzer* © 2025 by \[Your Name or Your Organization]
+## 📫 10. Liên hệ & Giấy phép
+
+* **Tác giả:** Võ Văn Tài
+* **Email liên hệ:** [vovantai2k4@gmail.com](mailto:vovantai2k4@gmail.com)
+* **Bản quyền:** Dự án thuộc quyền sở hữu cá nhân của tác giả.
+  Được phép sử dụng cho mục đích học tập và phi thương mại. Vui lòng ghi rõ nguồn nếu sử dụng lại nội dung/code.
+
+---
+
+*HR Attrition Analyzer* © 2025 by Võ Văn Tài
+
+```
 
 
