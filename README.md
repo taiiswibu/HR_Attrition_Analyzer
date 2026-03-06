@@ -1,22 +1,44 @@
 
-# HR Attrition Analyzer
+# HR Attrition Analyzer & Elephant Migration Simulation
 
 ![HR Attrition Analyzer](https://img.shields.io/badge/Status-Active-green)
+![Elephant Migration](https://img.shields.io/badge/GAMA-Simulation-blue)
 
 ## 1. Giới thiệu dự án
 
+Repository này chứa hai dự án chính:
+
+### 🏢 **HR Attrition Analyzer**
 **HR Attrition Analyzer** là một ứng dụng phân tích dữ liệu và dự đoán nghỉ việc nhân viên, giúp phòng nhân sự hiểu rõ các yếu tố ảnh hưởng đến nghỉ việc, đồng thời đưa ra cảnh báo sớm và đề xuất chiến lược giữ chân nhân viên.
 
 Ứng dụng được xây dựng trên nền tảng Python, sử dụng thư viện **Streamlit** để tạo giao diện web tương tác, và áp dụng thuật toán **Random Forest Classifier** để dự đoán khả năng nghỉ việc của nhân viên dựa trên dữ liệu thực tế.
+
+### 🐘 **Elephant Migration Simulation**
+**Elephant Migration Simulation** là một mô phỏng chân thực về hành trình di cư của đàn voi từ vùng khô cằn sang vùng phì nhiêu, được xây dựng trên nền tảng GAMA. Dự án này tập trung vào câu chuyện sinh tồn thay vì yếu tố combat, mang đến trải nghiệm như một bộ phim tài liệu National Geographic.
+
+**Đặc điểm nổi bật của mô phỏng:**
+- 🌍 Môi trường ba vùng: Khô cằn (Tây) → Sông (Giữa) → Phì nhiêu (Đông)
+- 🐘 Hành vi đàn voi thực tế với thủ lĩnh, voi trưởng thành, và voi con
+- 🌦️ Chu kỳ mùa ảnh hưởng đến thực vật và quyết định di cư
+- 📊 Thống kê tập trung vào hành trình thay vì combat
+- 🎨 Hiệu ứng thị giác với gradient màu sắc và kích thước thay đổi theo sức khỏe
 
 ---
 
 ## 2. Mục tiêu dự án
 
+### 🏢 HR Attrition Analyzer
 - Phân tích các yếu tố liên quan đến nghỉ việc nhân viên trong tổ chức.
 - Xây dựng mô hình học máy dự đoán xác suất nghỉ việc cho từng nhân viên.
 - Phát triển giao diện trực quan, thân thiện để bộ phận nhân sự dễ dàng tương tác và theo dõi.
 - Cung cấp các gợi ý và chiến lược nhằm giảm tỷ lệ nghỉ việc và giữ chân nhân viên.
+
+### 🐘 Elephant Migration Simulation
+- Mô phỏng chân thực hành vi di cư của đàn voi dựa trên điều kiện môi trường.
+- Nghiên cứu tác động của chu kỳ mùa đến quyết định di cư.
+- Phát triển mô hình agent-based modeling phức tạp với GAMA.
+- Tạo công cụ giáo dục về sinh thái học và hành vi động vật.
+- Cung cấp trải nghiệm trực quan về câu chuyện sinh tồn trong tự nhiên.
 
 ---
 
@@ -81,6 +103,7 @@ HR_Attrition_Analyzer/
 
 ### 4.4 Chạy ứng dụng
 
+#### HR Attrition Analyzer
 Ở thư mục `app/` hoặc thư mục gốc, chạy lệnh sau:
 
 ```bash
@@ -88,6 +111,15 @@ streamlit run app_streamlit.py
 ```
 
 Sau đó mở trình duyệt web tại địa chỉ được hiển thị (thường là `http://localhost:8501`).
+
+#### Elephant Migration Simulation
+1. Cài đặt GAMA Platform (phiên bản 1.8 trở lên)
+2. Mở GAMA và import các file `.gaml`:
+   - `elephant_migration.gaml` - Mô phỏng chính
+   - `elephant_migration_experiments.gaml` - Các thí nghiệm khác nhau
+   - `elephant_migration_test.gaml` - Kiểm tra và xác thực
+3. Chạy experiment mong muốn
+4. Xem chi tiết tại `ELEPHANT_MIGRATION_README.md`
 
 ---
 
